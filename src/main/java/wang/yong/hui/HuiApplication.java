@@ -7,6 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class HuiApplication {
 
 	public static void main(String[] args) {
+		//添加注释
 		SpringApplication.run(HuiApplication.class, args);
 	}
 }
