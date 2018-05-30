@@ -32,7 +32,7 @@ import java.util.List;
 
 //@RunWith(SpringRunner.class)
 @RunWith(SpringJUnit4ClassRunner.class)
-@ContextConfiguration(classes =  {JpaConfiguration.class})
+@SpringBootTest(classes =  {JpaConfiguration.class})
 @EnableAutoConfiguration(exclude = JpaRepositoriesAutoConfiguration.class)
 @Slf4j
 public class HuiApplicationTests {
