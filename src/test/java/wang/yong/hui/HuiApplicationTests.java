@@ -1,8 +1,6 @@
 package wang.yong.hui;
 
-import lombok.extern.java.Log;
 import lombok.extern.slf4j.Slf4j;
-import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
