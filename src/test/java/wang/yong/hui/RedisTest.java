@@ -57,7 +57,7 @@ public class RedisTest {
     public void get() {
         User user = userRedis.get(this.getClass().getName() + ":userByname:user");
         org.springframework.util.Assert.notNull(user, "对象不为空");
-        log.info("==userInfo== name:{},deparment{},role:{}",
+        logger.info("==userInfo== name:{},deparment{},role:{}",
                 user.getName(),user.getDeparment().getName(),user.getRoles().get(0).getName());
     }
 }
